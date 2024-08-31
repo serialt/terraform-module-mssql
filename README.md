@@ -1,5 +1,5 @@
 # README
-A Terraform module to install MetalLB 
+A Terraform module to install MSSQL
 
 ## Providers
 * hashicorp/helm
