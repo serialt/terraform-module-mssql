@@ -1,25 +1,31 @@
-# Module Input/Output
+# README
+A Terraform module to install MetalLB 
 
-## Input Variable List
+## Providers
+* hashicorp/helm
 
-- helm_repository
-- chart_version
-- app_version
-- name
-- namespace
-- port
-- persistence
-- tolerations
-- resources
-- username
-- password
+## Resources
+* helm_release.mssql
 
-## Output Attribute List
+## Inputs
+* helm_repository
+* chart_version
+* app_version
+* name
+* namespace
+* port
+* persistence
+* tolerations
+* resources
+* username
+* password
 
-- name
-- namespace
-- release_name
-- chart_version
-- app_version
-- service_port
-- secret
+
+## Outputs
+* name
+* namespace
+* release_name
+* chart_version
+* app_version
+* service_port
+* secret

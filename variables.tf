@@ -53,10 +53,6 @@ variable "resources" {
   default = {}
 }
 
-variable "database" {
-  type    = string
-  default = "postgres"
-}
 
 variable "username" {
   type    = string
